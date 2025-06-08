@@ -14,6 +14,7 @@ def test_get_api_key_for_valid_user(email=valid_email, password=valid_password):
     # Сверяем полученные данные с нашими ожиданиями
     assert status == 200
     assert 'key' in result
+    print(result)
 
 
 def test_get_all_pets_with_valid_key(filter=''):
