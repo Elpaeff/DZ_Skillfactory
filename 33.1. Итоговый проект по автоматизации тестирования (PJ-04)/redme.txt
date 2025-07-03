@@ -1,0 +1,2 @@
+
+python -m pytest -v --driver Chrome --driver-path M:/chromedriver/chromedriver.exe  tests/test_auth_page.py
